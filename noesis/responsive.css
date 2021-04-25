@@ -48,15 +48,6 @@
     }
 }
 
-
-/*@media(max-width: 767px) {
-    .touching-lives {
-        margin-left: 0px;
-        margin-right: 15px;
-    }
-}
-*/
-
 @media(max-width: 767px) {
     fa fa-bars {
         display: block !important;
@@ -65,3 +56,12 @@
         display: block !important;
     }
 }
+
+
+/*@media(max-width: 767px) {
+    .touching-lives {
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+}
+*/
