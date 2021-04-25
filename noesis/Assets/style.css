@@ -1,0 +1,63 @@
+            .cf3 {
+                padding-top: 25px;
+                position: relative;
+                height: 100vh;
+                width: 100%;
+                margin: 0px auto;
+                transition: all 2s ease;
+            }
+            
+            .cf3 img {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                -webkit-transition: all 5s ease;
+                -moz-transition: all 5s ease;
+                -o-transition: all 5s ease;
+                transition: all 5s ease;
+            }
+            
+            .top {
+                -webkit-animation: cssAnimation 5s infinite ease-in-out;
+                -moz-animation: cssAnimation 5s infinite ease-in-out;
+                -o-animation: cssAnimation 5s infinite ease-in-out;
+            }
+            
+            .animate__animated animate__bounce {}
+            
+            .hero-btn {
+                display: inline-block;
+                text-decoration: none;
+                color: #fff;
+                border: 2px solid #856623;
+                padding: 15px 0px;
+                margin: 20px 10px;
+                border-radius: 25px;
+                text-align: center;
+                font-weight: 30px;
+                background: transparent;
+                position: relative;
+                cursor: pointer;
+                width: 200px;
+                overflow: hidden;
+                text-transform: uppercase;
+                transform: rotate(-30deg) skew(25deg) scale(.8);
+                transition: 0.5s;
+            }
+            
+            span {
+                background: transparent;
+                height: 100%;
+                width: 100%;
+                border-radius: 25px;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                z-index: -1;
+            }
+            
+            .hero-btn:hover {
+                border: 1px solid #555555;
+                background: #008CBA;
+                transition: 5s;
+            }
