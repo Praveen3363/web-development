@@ -11,7 +11,7 @@
                                         margin-bottom: 0px;
                                         justify-content: center;
                                         align-items: center;
-                                        font-family: 'Poppins', sans-serif;
+                                        font-family: 'Roboto Slab', serif;
                                     }
                                     
                                     .menu-icon {
@@ -67,6 +67,14 @@
                                     
                                     .slide {
                                         text-align: center;
+                                    }
+                                    
+                                    .marquee-video {
+                                        width: 100%;
+                                        position: relative;
+                                        left: 0;
+                                        margin: 0;
+                                        overflow: hidden;
                                     }
                                     
                                     .cf3 {
@@ -395,6 +403,14 @@
                                         margin-top: 16px;
                                         margin-bottom: 15px;
                                         text-align: center;
+                                    }
+                                    
+                                    video {
+                                        margin: 0;
+                                        padding: 0;
+                                        border: 0;
+                                        vertical-align: baseline;
+                                        font-size: 100%;
                                     }
                                     
                                     .social-links img {
