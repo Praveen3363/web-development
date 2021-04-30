@@ -6,12 +6,13 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+
 </head>
 
 <body>
     <nav>
         <a href="https://www.aosmithindia.com" target="_blank"><img src="A_O Smith logo silver.svg"></a>
-        <div class="nav-links" id="navLinks">
+        <div class="nav-links" id="navLinks" data-event="hover_intent" data-effect="fade-up" data-effect-speed="200" data-hover-intent-timeout="300">
             <ul class="dropdown-menu">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
@@ -58,11 +59,25 @@
                 </ul>
         </div>
         </div>
+        <form id="langIdNow" action="signUp" method="post">
+            <select id="languageId" name="countryName" class="lang_cul form-control py-0 pr-4 pl-1 bg-none border-0 shadow-0 text-black" onchange="$('#languageId').addClass('disabled');$('#langIdNow').submit();">
+                
+                
+                    <option value="EN" selected="selected">English</option>
+
+                
+            </select>
+            <div>
+            </div>
+        </form>
+
         <i class="fa fa-bars " onclick="showMenu() "></i>
+
     </nav>
     <div id="slider">
         <figure>
-            <img src="https://raw.githubusercontent.com/Praveen3363/web-development/main/noesis/images/banner-image-without-product.jpg" width="100%" height="100%" />
+            <img src="https://raw.githubusercontent.com/Praveen3363/web-development/main/noesis/images/banner-image-without-product.jpg" src="https://raw.githubusercontent.com/Praveen3363/web-development/main/noesis/images/banner-image-without-product.jpg" width="100%"
+                height="100%" />
             <img src="https://raw.githubusercontent.com/Praveen3363/web-development/main/noesis/images/banner-image-with-product.jpg" width="100%" height="100%" />
             <img src="https://raw.githubusercontent.com/Praveen3363/web-development/main/noesis/images/18303_4db6119416abe6d2f49f26167703120384c222c899928e56f6c9d5df6bd05d60-179.jpg" width="100%" height="100%" />
             <img src="https://raw.githubusercontent.com/Praveen3363/web-development/main/noesis/images/18303_4db6119416abe6d2f49f26167703120384c222c899928e56f6c9d5df6bd05d60-181.jpg" width="100%" height="100%" />
@@ -169,18 +184,64 @@
             navLinks.style.right = "-200px ";
         }
     </script>
+    <div class="sticky-contact-us">
+        <div class="sticky-button">
+            <p class="quick-reply">
+                <a href="contact-us.php" target="_blank">Quick Enquiry</a>
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="sec-title text-center">
+                    <span class="tag-line">We are hiring</span>
+                    <h2>You can be part of our team</h2>
+                </div>
+                <!-- /.sec-title -->
+            </div>
+            <!-- /.col-lg-5 -->
+            <div class="col-sm-6">
+                <div class="single-service-style-three">
+                    <div class="text-block">
+                        <h3><a href="conact.php">Hiring for Senior Software Developer</a></h3>
+                        <p>There are many new variations of paassages of available but majority is simple free text.</p>
+                        <a href="contact-us.php" class="read-more">Apply Now</a>
+                    </div>
+                    <!-- /.text-block -->
+                </div>
+                <!-- /.single-service-style-three -->
+            </div>
+            <!-- /.item -->
 
+            <div class="col-sm-6">
+                <div class="single-service-style-three">
+                    <div class="text-block">
+                        <h3><a href="conact.php">Hiring for Senior Sales Manager</a></h3>
+                        <p>There are many new variations of paassages of available but majority is simple free text.</p>
+                        <a href="contact-us.php" class="read-more">Apply Now</a>
+                    </div>
+                    <!-- /.text-block -->
+                </div>
+            </div>
+            <div class="col-lg-12 text-center sec-pad">
+                <h3>You can share your resume on : <a href="mailto:contact@aosmith.info">contact@aosmith.info</a></h3>
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+    </div>
     <footer>
 
         <div class="social-links ">
             <a href="https://www.instagram.com/ " target="_blank ">
-                <img src="https://raw.githubusercontent.com/Praveen3363/web-development/main/noesis/Assets/Fast-On-Landing-Page/18303_4db6119416abe6d2f49f26167703120384c222c899928e56f6c9d5df6bd05d60-5.jpg " alt="Instagram "></a>
+                <img src="https://raw.githubusercontent.com/Praveen3363/web-development/main/noesis/Assets/Fast-On-Landing-Page/18303_4db6119416abe6d2f49f26167703120384c222c899928e56f6c9d5df6bd05d60-5.jpg" alt="Instagram"></a>
         </div>
-
-        <div _ngcontent-c3="" class="col-md-12 col-sm-12 text-center">
-            <p _ngcontent-c3="" class="footerParaA">Best viewed with IE 10+, Firefox 16+, Safari 5.1, Chrome 23+.</p>
-            <p _ngcontent-c3="" class="footerParaB"> AOSMITH.© Copyright2020 A. O. Smith India Water Products Pvt. Ltd., All Rights Reserved.</p>
-        </div>
+    </footer>
+    <div _ngcontent-c3="" class="col-md-12 col-sm-12 text-center">
+        <p _ngcontent-c3="" class="footerParaA">Best viewed with IE 10+, Firefox 16+, Safari 5.1, Chrome 23+.</p>
+        <p _ngcontent-c3="" class="footerParaB"> AOSMITH.© Copyright2020 A. O. Smith India Water Products Pvt. Ltd., All Rights Reserved.</p>
+    </div>
 </body>
 
 </html>
